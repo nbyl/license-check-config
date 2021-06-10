@@ -50,13 +50,22 @@ To use the external license list, create a file `.license-check.yaml` next to yo
 ```
 ---
 include:
-- url: https://raw.githubusercontent.com/nbyl/license-check-config/main/commercial-use/$FILE
+- url: https://raw.githubusercontent.com/nbyl/license-check-config/main/$CATEGORY/$FILE
+
 ```
+
+Replace `$CATEGORY` with a license category according to this table:
+
+| `$FILE`          | Description                                                                                               |
+|------------------|-----------------------------------------------------------------------------------------------------------|
+| `commercial-use` | All licenses that can be used without restrictions even within comercial products (e.g. BSD, Apache, ...) |
+| `open-source`    | Licenses that are suitable for open source development.                                                   |
+
 
 Replace `$FILE` with the file for your supported package manager according to this table:
 
 | Package Manager | Package Manager File | $FILE                       |
-| --------------- | -------------------- | --------------------------- |
+|-----------------|----------------------|-----------------------------|
 | npm             | `package.json`       | `license-check-npm.yaml`    |
 | pipenv          | `Pipfile`            | `license-check-python.yaml` |
 
