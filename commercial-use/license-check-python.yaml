@@ -1,4 +1,3 @@
----
 allowedLicenses:
 - 3-Clause BSD License
 - Apache 2.0
@@ -6,6 +5,7 @@ allowedLicenses:
 - Apache Software License
 - Apache Software License, BSD License
 - Apache Software License, MIT License
+- Apache-2.0
 - BSD
 - BSD License
 - BSD License, Apache Software License
