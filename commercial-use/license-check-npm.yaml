@@ -1,5 +1,5 @@
----
 allowedLicenses:
+- (BSD-2-Clause OR MIT OR Apache-2.0)
 - (BSD-3-Clause OR GPL-2.0)
 - (CC-BY-4.0 AND OFL-1.1 AND MIT)
 - (MIT AND BSD-3-Clause)
@@ -8,7 +8,6 @@ allowedLicenses:
 - (MIT OR Apache-2.0)
 - (MIT OR CC0-1.0)
 - (WTFPL OR MIT)
-- (BSD-2-Clause OR MIT OR Apache-2.0)
 - 0BSD
 - AFLv2.1,BSD
 - Apache*
@@ -26,3 +25,5 @@ allowedLicenses:
 - Unlicense
 - WTFPL
 - WTFPL OR ISC
+excludedPackages: []
+include: []
