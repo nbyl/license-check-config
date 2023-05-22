@@ -1,0 +1,13 @@
+allowedLicenses:
+- Apache Software License; BSD License
+- GNU General Public License v2 (GPLv2)
+- GNU Lesser General Public License v2 (LGPLv2)
+- GNU Lesser General Public License v3 (LGPLv3)
+- GNU Library or Lesser General Public License (LGPL)
+- Public Domain, Python Software Foundation License, BSD License, GNU General Public
+  License (GPL)
+- BSD License; GNU General Public License (GPL); Public Domain; Python Software Foundation License
+- MIT License; Python Software Foundation License
+- MIT License; Mozilla Public License 2.0 (MPL 2.0)
+excludedPackages: []
+include: []
